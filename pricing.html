@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>fittrack</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar p-3 navbar-expand-md navbar-dark font-weight-bold font-size-lg nsc"
+    >
+      <a href="index.html" class="nav-item">
+        <img src="img/fittracklogo.png" width="30%" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mr-3">
+            <a class="nav-link exo-headnav" id="hocol" href="index.html"
+              >Home
+            </a>
+          </li>
+          <li class="nav-item mr-3 active">
+            <a class="nav-link exo-headnav" id="hocol" href="pricing.html"
+              >pricing</a
+            >
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link exo-headnav" id="hocol" href="fitnesscal.html"
+              >fitness calculator</a
+            >
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link exo-headnav" id="hocol" href="about.html"
+              >About</a
+            >
+          </li>
+
+          <li class="nav-item mr-3">
+            <a class="nav-link exo-headnavt" id="hocol" href="contact.html"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+        <!-- <div class="mx-5 exo-headnav">
+          <button
+            class="btn btn-outline-light nav-item nav-link subutton btn-lg signupcol"
+            data-toggle="modal"
+            data-target="#signupModal"
+          >
+            SignUp
+          </button>
+        </div> -->
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- Sign Up Modal -->
+    <div
+      class="modal fade"
+      id="signupModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="signupModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content rounded-4 shadow">
+          <div class="modal-header p-5 pb-4 border-bottom-0">
+            <h1 class="fw-bold mb-0 fs-2 exo-headsu">Sign up for free</h1>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-5 pt-0 merriweather-black-su">
+            <form class="">
+              <div class="form-floating mb-3">
+                <label for="floatingInput ">Email address</label>
+                <input
+                  type="email"
+                  class="form-control rounded-3"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="form-floating mb-3">
+                <label for="floatingPassword">Password</label>
+                <input
+                  type="password"
+                  class="form-control rounded-3"
+                  id="floatingPassword"
+                  placeholder="Password"
+                />
+              </div>
+              <button
+                class="w-100 mb-2 btn btn-lg rounded-3 btn-primary"
+                type="submit"
+              >
+                Sign up
+              </button>
+              <p class="text-body-secondary">
+                By clicking Sign up, you agree to the terms of use.
+              </p>
+              <hr class="my-4" />
+              <h2 class="fs-5 fw-bold mb-3 exo-headsu">Or use a third-party</h2>
+
+              <a
+                class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3"
+                href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fclient%3Dopera%26q%3Dgoogle%26sourceid%3Dopera%26ie%3DUTF-8%26oe%3DUTF-8&ec=futura_asy_dt_so_72487300_e&hl=en&ifkv=ARZ0qKKHMUanyHSog6pqoDiBJEQgt4gHic6GxBeFeNr4hjCHsQNU8pBxRnf9IkPGbrBglU_RgM8k&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1912888210%3A1713678585087911&theme=mn&ddm=0"
+                target="_self"
+                >Sign up with google</a
+              >
+              <a
+                class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3"
+                href="https://www.facebook.com/"
+                target="_self"
+                >Sign up with Facebook</a
+              >
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page Header Start -->
+    <div class="container-fluid mb-5" id="himg">
+      <div
+        class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5"
+        style="min-height: 400px"
+      >
+        <h1
+          class="mb-3 mt-0 mt-lg-5 text-white text-uppercase merriweather-black"
+        >
+          pricing
+        </h1>
+        <div class="d-inline-flex exo-headnav">
+          <p class="m-0 text-white">
+            <a class="text-white" href="index.html">Home</a>
+          </p>
+          <p class="m-0 text-white px-2">/</p>
+          <p class="m-0 text-white">pricing</p>
+        </div>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- pricing -->
+    <div class="container my-5" id="pricing-section">
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header bg-secondary py-3">
+              <h4 class="my-0 fw-normal merriweather-black-price">3 Months</h4>
+            </div>
+            <div class="card-body">
+              <h1
+                class="card-title pricing-card-title merriweather-black-price"
+              >
+                Rs.1000<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+              <div class="row">
+                <ul class="col-2 list-unstyled">
+                  <li><i class="fas fa-check"></i></li>
+                  <li><i class="fas fa-check"></i></li>
+                  <li><i class="fas fa-times"></i></li>
+                  <li><i class="fas fa-times"></i></li>
+                  <li><i class="fas fa-times"></i></li>
+                </ul>
+                <ul class="col-8 list-unstyled exo-headpricing">
+                  <li>Unlimited Equipments</li>
+                  <li>Personal Trainer</li>
+                  <li>strength training</li>
+                  <li>Weight Loss Classes</li>
+                  <li>cardio</li>
+                </ul>
+              </div>
+              <a
+                href=""
+                type="button"
+                class="w-100 btn btn-lg btn-outline-danger merriweather-black-price"
+                >join now</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header bg-secondary py-3">
+              <h4 class="my-0 fw-normal merriweather-black-price">6 Months</h4>
+            </div>
+            <div class="card-body">
+              <h1
+                class="card-title pricing-card-title merriweather-black-price"
+              >
+                Rs.800<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+              <div class="row">
+                <ul class="col-2 list-unstyled">
+                  <li><i class="fas fa-check"></i></li>
+                  <li><i class="fas fa-check"></i></li>
+                  <li><i class="fas fa-check"></i></li>
+
+                  <li><i class="fas fa-times"></i></li>
+                  <li><i class="fas fa-times"></i></li>
+                </ul>
+                <ul class="col-8 list-unstyled exo-headpricing">
+                  <li>Unlimited Equipments</li>
+                  <li>Personal Trainer</li>
+                  <li>strength training</li>
+                  <li>Weight Loss Classes</li>
+                  <li>cardio</li>
+                </ul>
+              </div>
+              <a
+                href=""
+                type="button"
+                class="w-100 btn btn-lg btn-outline-danger merriweather-black-price"
+                >join now</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header bg-secondary py-3">
+              <h4 class="my-0 fw-normal merriweather-black-price">12 Months</h4>
+            </div>
+            <div class="card-body">
+              <h1
+                class="card-title pricing-card-title merriweather-black-price"
+              >
+                Rs.600<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+              <div class="row">
+                <ul class="col-2 list-unstyled">
+                  <li><i class="fas fa-check"></i></li>
+                  <li><i class="fas fa-check"></i></li>
+                  <li><i class="fas fa-check"></i></li>
+                  <li><i class="fas fa-check"></i></li>
+                  <li><i class="fas fa-check"></i></li>
+                </ul>
+                <ul class="col-8 list-unstyled exo-headpricing">
+                  <li>Unlimited Equipments</li>
+                  <li>Personal Trainer</li>
+                  <li>strength training</li>
+                  <li>Weight Loss Classes</li>
+                  <li>cardio</li>
+                </ul>
+              </div>
+              <a
+                href=""
+                type="button"
+                class="w-100 btn btn-lg btn-outline-danger merriweather-black-price"
+                id="top-section"
+                >join now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid" id="fimg">
+      <footer class="row pt-5 border-top">
+        <div class="col mb-3 ml-5">
+          <h5 class="th merriweather-black-ft">Get In Touch</h5>
+          <ul class="nav flex-column exo-headft">
+            <li class="nav-item mb-2 text-light">fittrack@gmail.com</li>
+            <li class="nav-item mb-2 text-light">0317-1252123</li>
+            <li class="nav-item mb-2 text-light">ABC area, karachi</li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5 class="th merriweather-black-ft">Quick Links</h5>
+          <ul class="nav flex-column exo-headft">
+            <li class="nav-item mb-2">
+              <a
+                href="index.html"
+                class="nav-link p-0 text-body-secondary text-light"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="pricing.html"
+                class="nav-link p-0 text-body-secondary text-light"
+                >Pricing</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="fitnesscal.html"
+                class="nav-link p-0 text-body-secondary text-light"
+                >Fitness Calculator</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="about.html"
+                class="nav-link p-0 text-body-secondary text-light"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5 class="th merriweather-black-ft">Popular Links</h5>
+          <ul class="nav flex-column exo-headft">
+            <li class="nav-item mb-2">
+              <a
+                href="contact.html"
+                class="nav-link p-0 text-body-secondary text-light"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                class="nav-link p-0 text-body-secondary text-light"
+                data-toggle="modal"
+                data-target="#signupModal"
+              >
+                SignUp
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5 class="th merriweather-black-ft">Opening Hours</h5>
+          <h5 class="text-light exo-headft">Monday - Friday</h5>
+          <p class="text-light exo-headft">12:00 PM - 12:00 AM</p>
+          <h5 class="text-light exo-headft">Saturday - Sunday</h5>
+          <p class="text-light exo-headft">2:00 PM - 9:00 PM</p>
+        </div>
+      </footer>
+      <div class="container border-top border-dark py-5">
+        <p class="m-0 text-center text-white">
+          @
+          <a
+            class="text-white font-weight-bold merriweather-black-ft"
+            href="index.html"
+            >fittrack</a
+          >. All Rights Reserved. Designed by
+          <a class="text-white font-weight-bold merriweather-black-ft" href="#"
+            >muheeb</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a
+      href="#top-section"
+      class="btn btn-outline-danger back-to-top"
+      id="backToTop"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
+
+    <!-- custom JavaScript -->
+    <script src="logic.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

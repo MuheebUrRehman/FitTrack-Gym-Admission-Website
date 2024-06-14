@@ -1,0 +1,204 @@
+/* background color */
+.bgcol {
+  background-color: #f2f2f2;
+}
+
+/* navbar background color */
+/* .nsc {
+  background-color: transparent;
+  transition: background-color 0.7s ease;
+} */
+
+.nsc {
+  height: 100px;
+  background-color: #8b0000;
+}
+
+/* navbar item hover color */
+#hocol:hover {
+  color: #ff4136;
+}
+
+/* signup color */
+.signupcol {
+  background-color: #ff4136;
+}
+
+/* bmi background image */
+#bmiimg {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img/feature2.png);
+  background-size: cover;
+  max-width: 100%;
+  height: 440px;
+}
+
+/* feedback background image */
+#fbimg {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img/testimonial.png);
+  background-size: cover;
+  max-width: 100%;
+  height: 440px;
+}
+
+/* text head color */
+.th {
+  color: #ff4136;
+}
+
+/* fonts */
+/* carosel */
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* navbar */
+.exo-headnav {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* signup */
+.merriweather-black-su {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.exo-headsu {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* pricing */
+.merriweather-black-price {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.exo-headpricing {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* steps */
+.merriweather-black-step {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.exo-headstep {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* class */
+#licol.active {
+  background-color: #8b0000;
+}
+
+.classcol {
+  background-color: #8b0000;
+}
+
+/* bmi */
+.merriweather-black-bmi {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.exo-headbmi {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* about */
+.merriweather-black-abt {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.exo-headabt {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* contact */
+.merriweather-black-con {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.exo-headcon {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* feedback */
+.merriweather-black-fd {
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.exo-headfd {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* footer */
+.merriweather-black-ft {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.exo-headft {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#himg {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/headerimg.png);
+}
+
+#fimg {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/feature11.png);
+}
+
+.back-to-top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 11;
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
+}
